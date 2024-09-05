@@ -9,8 +9,7 @@
       <span>
         <a
           class="font-bold text-active"
-          href="https://github.com/flipped-aurora/gin-vue-admin"
-        >Gin-Vue-Admin</a>
+        >cheche</a>
       </span>
     </div>
     <slot />
@@ -19,8 +18,7 @@
       <span>
         <a
           class="font-bold text-active"
-          href="https://github.com/flipped-aurora"
-        >flipped-aurora团队</a>
+        >cheche团队</a>
       </span>
     </div>
   </div>

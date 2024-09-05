@@ -7,20 +7,20 @@
             <el-divider>gin-vue-admin</el-divider>
           </template>
           <div>
-            <el-row>
-              <el-col
-                :span="8"
-                :offset="8"
-              >
-                <a href="https://github.com/flipped-aurora/gin-vue-admin">
-                  <img
-                    class="org-img dom-center"
-                    src="@/assets/logo.png"
-                    alt="gin-vue-admin"
-                  >
-                </a>
-              </el-col>
-            </el-row>
+<!--            <el-row>-->
+<!--              <el-col-->
+<!--                :span="8"-->
+<!--                :offset="8"-->
+<!--              >-->
+<!--                <a href="https://github.com/flipped-aurora/gin-vue-admin">-->
+<!--                  <img-->
+<!--                    class="org-img dom-center"-->
+<!--                    src="@/assets/logo.png"-->
+<!--                    alt="gin-vue-admin"-->
+<!--                  >-->
+<!--                </a>-->
+<!--              </el-col>-->
+<!--            </el-row>-->
             <el-row :gutter="10">
               <el-col :span="8">
                 <a href="https://github.com/flipped-aurora/gin-vue-admin">

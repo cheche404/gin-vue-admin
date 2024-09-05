@@ -83,7 +83,7 @@ hua-wei-obs:
     access-key: you-access-key
     secret-key: you-secret-key
 jwt:
-    signing-key: a8338c94-4c4b-45cc-afff-52bdbc094782
+    signing-key: 1a4e86e4-5693-4f2b-be76-bc04aee5ea8f
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
@@ -123,7 +123,7 @@ mysql:
     prefix: ""
     port: "3306"
     config: charset=utf8mb4&parseTime=True&loc=Local
-    db-name: cheche
+    db-name: gva
     username: root
     password: cheche0058!
     path: 172.31.0.7
