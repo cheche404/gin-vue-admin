@@ -21,6 +21,7 @@ type ApiGroup struct {
 	AutoCodePackageApi
 	AutoCodeHistoryApi
 	AutoCodeTemplateApi
+	PrometheusApi
 }
 
 var (
@@ -42,4 +43,5 @@ var (
 	autoCodePackageService  = service.ServiceGroupApp.SystemServiceGroup.AutoCodePackage
 	autoCodeHistoryService  = service.ServiceGroupApp.SystemServiceGroup.AutoCodeHistory
 	autoCodeTemplateService = service.ServiceGroupApp.SystemServiceGroup.AutoCodeTemplate
+	prometheusService       = service.ServiceGroupApp.SystemServiceGroup.PrometheusService
 )

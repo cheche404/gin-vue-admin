@@ -16,6 +16,7 @@ type ServiceGroup struct {
 	DictionaryDetailService
 	AuthorityBtnService
 	SysExportTemplateService
+	PrometheusService
 
 	AutoCodePlugin   autoCodePlugin
 	AutoCodePackage  autoCodePackage

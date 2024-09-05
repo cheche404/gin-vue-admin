@@ -50,6 +50,9 @@ func RegisterTables() {
 		system.Condition{},
 		system.JoinTemplate{},
 
+		// 新增的 prometheus 表
+		system.Prometheus{},
+
 		example.ExaFile{},
 		example.ExaCustomer{},
 		example.ExaFileChunk{},

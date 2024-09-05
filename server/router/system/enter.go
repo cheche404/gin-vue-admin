@@ -18,6 +18,7 @@ type RouterGroup struct {
 	DictionaryDetailRouter
 	AuthorityBtnRouter
 	SysExportTemplateRouter
+	PrometheusRoute
 }
 
 var (
@@ -39,4 +40,5 @@ var (
 	dictionaryDetailApi = api.ApiGroupApp.SystemApiGroup.DictionaryDetailApi
 	autoCodeTemplateApi = api.ApiGroupApp.SystemApiGroup.AutoCodeTemplateApi
 	exportTemplateApi   = api.ApiGroupApp.SystemApiGroup.SysExportTemplateApi
+	prometheusApi       = api.ApiGroupApp.SystemApiGroup.PrometheusApi
 )
