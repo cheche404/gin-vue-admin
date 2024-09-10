@@ -12,6 +12,8 @@ func (s *PrometheusRoute) InitPrometheusRoute(Router *gin.RouterGroup) (R gin.IR
 		prometheusRoute.POST("addPrometheus", prometheusApi.CreatePrometheus)
 		prometheusRoute.PUT("updatePrometheus", prometheusApi.UpdatePrometheus)
 		prometheusRoute.DELETE("deletePrometheus", prometheusApi.DeletePrometheus)
+		prometheusRoute.POST("getPrometheusList", prometheusApi.GetPrometheusList) // 获取Api列表
+		prometheusRoute.POST("getPrometheusById", prometheusApi.GetPrometheusById)
 	}
 	return prometheusRoute
 }
